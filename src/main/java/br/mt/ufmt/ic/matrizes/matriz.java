@@ -45,4 +45,15 @@ public class Matriz {
         return resultado;
     }
 
+    public int somatorio(){
+        int soma= 0
+        for (int i = 0; i <= this.linhas; i++) {
+            for (int j = 0; i <= this.colunas; j++) {
+              soma += this.matriz[i][j]
+}
+
+
+    };
+    return soma;
+}
 }
