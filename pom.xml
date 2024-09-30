@@ -13,8 +13,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>23</maven.compiler.source>
-    <maven.compiler.target>23</maven.compiler.target>
+    <maven.compiler.source>22</maven.compiler.source>
+    <maven.compiler.target>22</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -48,7 +48,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>3.4.1</version>
             <configuration>
-                <mainClass>br.mt.ufmt.ic</mainClass>
+                <mainClass>br.mt.ufmt.ic.App</mainClass>
             </configuration>
         </plugin>
         <plugin>
